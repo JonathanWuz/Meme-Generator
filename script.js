@@ -1,7 +1,7 @@
-var after = ""
+var after = "";
 
 function fetchMemes() {
-  colorChange();
+  color();
 
   if (document.getElementById("memes")) {
     document.getElementById("memes").remove();
@@ -26,5 +26,8 @@ function fetchMemes() {
         }
       }
       document.body.appendChild(parentdiv);
+    })
+    .catch((e) => {
+      console.log(e);
     });
 }

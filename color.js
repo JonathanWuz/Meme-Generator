@@ -1,4 +1,3 @@
-
 const button=document.getElementById("button");
 const bg=["#ff3381","#93f","#f56","#eeff00","#003cff"]
 const fg=["#111","#fff","#111","#111","#fff"]
