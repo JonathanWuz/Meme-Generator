@@ -26,8 +26,5 @@ function fetchMemes() {
         }
       }
       document.body.appendChild(parentdiv);
-    })
-    .catch((e) => {
-      console.log(e);
     });
 }
